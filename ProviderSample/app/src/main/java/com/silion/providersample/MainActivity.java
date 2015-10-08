@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
                     ContentResolver cr = getContentResolver();
                     int id = cr.update(User.URI, values, where, selectionArgs);
                     Uri uri = ContentUris.withAppendedId(User.URI, id);
-                    android.util.Log.v("slong.liang", "insert uri = " + uri);
+                    android.util.Log.v("slong.liang", "update uri = " + uri);
                     break;
                 }
                 case R.id.delete: {
