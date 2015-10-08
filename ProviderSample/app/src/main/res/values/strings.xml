@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProviderSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="insert">Insert</string>
+    <string name="query">Query</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
